@@ -10,6 +10,7 @@ ReadTheDocs使用Python社区的 `Sphinx <http://www.sphinx-doc.org/en/stable/>`
 
 使用ReadTheDocs服务
 -------------------
+请按照下面的流程, 学习如何使用ReadTheDocs。你可以Folk `此项目 <https://github.com/MacHu-GWU/learn_readthedocs-project>`_ 用于练习。然后可以在 `这里看到本项目的例子的成品网站 <http://learn-readthedocs.readthedocs.io/zh/latest/>`_。
 
 
 第一步, 创建你的文档网站, 并将代码放在GitHub上
