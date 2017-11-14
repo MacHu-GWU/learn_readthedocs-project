@@ -2,7 +2,7 @@
 learn_readthedocs_venv/
 learn_readthedocs.egg-info/
 learn_readthedocs-*/
-index.rst
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
