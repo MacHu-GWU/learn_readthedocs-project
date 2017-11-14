@@ -1,25 +1,30 @@
-.. image:: https://img.shields.io/badge/docs-latest-brightgreen.svg
+.. image:: https://img.shields.io/badge/Star_Me_on_GitHub!--None.svg?style=social
+    :target: https://github.com/MacHu-GWU/learn_readthedocs-project
 
 
-Welcome to learn_readthedocs Documentation
-==========================================
+Welcome to ``learn_readthedocs`` Documentation
+==============================================================================
+
 `ReadTheDocs <https://readthedocs.org/>`_ 是一个能在你每次Commit到GitHub后, 自动Build并部署你的文档网站的服务。免除了繁琐的自行Build文档, 然后部署网站的过程。
 
 ReadTheDocs使用Python社区的 `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ 文档创建引擎。
 
 
 使用ReadTheDocs服务
--------------------
+------------------------------------------------------------------------------
+
 请按照下面的流程, 学习如何使用ReadTheDocs。你可以Folk `此项目 <https://github.com/MacHu-GWU/learn_readthedocs-project>`_ 用于练习。然后可以在 `这里看到本项目的例子的成品网站 <http://learn-readthedocs.readthedocs.io/zh/latest/>`_。
 
 
 第一步, 创建你的文档网站, 并将代码放在GitHub上
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 首先, 你需要在 `GitHub <https://github.com/>`_ 上 `创建 <https://github.com/new>`_ 一个代码库。然后使用Sphinx `创建 <http://www.sphinx-doc.org/en/stable/tutorial.html>`_ 你的文档网站, 确保能在本地成功的Build。
 
 
 第二步, 设置ReadTheDocs
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 首先你要将项目关联到ReadTheDocs。你需要在 `控制面板 <https://readthedocs.org/dashboard/>`_ `导入 <https://readthedocs.org/dashboard/import/?>`_ 你的项目。
 
 然后, 你需要进入Admin菜单进行一些设置。下面列出了一些比较容易出问题的设置的解说:
@@ -38,19 +43,20 @@ ReadTheDocs使用Python社区的 `Sphinx <http://www.sphinx-doc.org/en/stable/>`
 
 
 其他替代方案
-------------
+------------------------------------------------------------------------------
+
 任何支持静态网站部署的服务都可以用于部署你的文档网站。例如AWS的 `S3 <https://aws.amazon.com/s3/>`_ 服务提供了自动部署静态网站的服务。具体做法请参考 `官方文档 <http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html>`_。你所要做的只是将文档网站文件的压缩包上传到S3即可。
 
 你可以自行尝试其他的服务提供商。
 
 
 ReadTheDocs的限制
------------------
+------------------------------------------------------------------------------
 在后台设置界面, 有一个选项叫Language, 默认设置是en(英文)。此时 **不允许文档中出现任何非英文字符**, 若出现了, 则会导致Build失败。所以在我们如果要Build一个中文网站, 则需要将Language设置为Chinese。
 
 2016年6月, 发现ReadTheDocs的域名不太稳定。个人比较偏好使用AWS S3或PyPI的PythonHost部署文档。
 
 
 附录
-----
+------------------------------------------------------------------------------
 - `Python开源项目开发指南 <https://github.com/MacHu-GWU/Python-OpenSource-Project-Developer-Guide>`_
