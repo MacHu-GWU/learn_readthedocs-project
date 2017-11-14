@@ -10,4 +10,5 @@ sub packages and modules
 .. toctree::
    :maxdepth: 1
 
+    use_requests <use_requests>
     
